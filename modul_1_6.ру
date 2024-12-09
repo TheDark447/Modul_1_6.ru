@@ -1,0 +1,15 @@
+my_dick =  {'Vasya': 15, 'Egor': 16, 'Masha': 'absent'}
+print(my_dick)
+print(my_dick.get('Masha'))
+print(my_dick.get('Alfred'))
+my_dick.update({'Max': 22, 'Alesha': 12})
+del my_dick['Masha']
+print(my_dick.get('Masha'))
+print(my_dick)
+
+my_set = {1,1,1,2,2,3,3,3,3, 'Masha','absent'}
+print(my_set)
+print(my_set.discard('absent'))
+print(my_set.add(4))
+print(my_set.add('its a girl'))
+print(my_set)
